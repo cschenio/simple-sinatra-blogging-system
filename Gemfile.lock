@@ -1,0 +1,33 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    puma (3.0.2)
+    rack (1.6.4)
+    rack-protection (1.5.3)
+      rack
+    rdiscount (2.1.8)
+    sequel (4.31.0)
+    sinatra (1.4.7)
+      rack (~> 1.5)
+      rack-protection (~> 1.4)
+      tilt (>= 1.3, < 3)
+    slim (3.0.6)
+      temple (~> 0.7.3)
+      tilt (>= 1.3.3, < 2.1)
+    sqlite3 (1.3.11)
+    temple (0.7.6)
+    tilt (2.0.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  puma
+  rdiscount
+  sequel
+  sinatra
+  slim
+  sqlite3
+
+BUNDLED WITH
+   1.11.2
